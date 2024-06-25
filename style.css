@@ -1,0 +1,50 @@
+body {
+    text-align: center;
+    font-size: 4vw;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #time {
+    margin-bottom: 20px;
+  }
+  
+  #weather-container {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  table {
+    border-collapse: collapse;
+    margin: 0 auto;
+  }
+  
+  table, tr, td, th {
+    border: 1px solid #aaa;
+    padding: 1vw 3vw;
+    text-align: center;
+  }
+  
+  body.sunny {
+    background-color: #FFD700; /* 晴れの場合の背景色 (ゴールド) */
+  }
+  
+  body.cloudy {
+    background-color: #B0C4DE; /* 曇りの場合の背景色 (ライトスチールブルー) */
+  }
+  
+  body.rainy {
+    background-color: #87CEFA; /* 雨の場合の背景色 (ライトスカイブルー) */
+  }
+  
+  body.snowy {
+    background-color: #FFFFFF; /* 雪の場合の背景色 (白) */
+  }
+  
